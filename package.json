@@ -1,0 +1,22 @@
+{
+  "name": "react-dynamic-modules",
+  "version": "0.1.0",
+  "description": "provide React component with dynamic modules",
+  "main": "lib/index.js",
+  "repository": "https://github.com/zhaoyao91/react-dynamic-modules.git",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "author": "zhaoyao91 <zhaoyao91@163.com>",
+  "license": "MIT"
+}
